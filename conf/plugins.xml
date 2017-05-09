@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <plugin>
+        <name>mysqlreader</name>
+        <version>1</version>
+        <Path>plugins/reader/mysqlReader</Path>
+        <PluginClassName>com.jd.chen.dts.plugins.reader.mysqlReader.MysqlReader</PluginClassName>
+        <SplitterClassName>com.jd.chen.dts.plugins.reader.mysqlReader.MysqlReaderKeySplitter</SplitterClassName>
+        <PeripheryClassName>com.jd.chen.dts.plugins.reader.mysqlReader.MysqlReaderPeriphery</PeripheryClassName>
+        <MaxThreadNumber>10</MaxThreadNumber>
+    </plugin>
+
+    <plugin>
+        <name>mysqlwriter</name>
+        <version>1</version>
+        <Path>plugins/writer/mysqlWriter</Path>
+        <PluginClassName>com.jd.chen.dts.plugins.writer.mysqlWriter.MysqlWriter</PluginClassName>
+        <PeripheryClassName>com.jd.chen.dts.plugins.writer.mysqlWriter.MysqlWriterPeriphery</PeripheryClassName>
+        <MaxThreadNumber>10</MaxThreadNumber>
+    </plugin>
+
+</plugins>
